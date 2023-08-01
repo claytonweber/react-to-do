@@ -1,17 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ToDoApp from '@/components/App';
+import App from './App';
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-// )
-
-const domContainer = document.getElementById('root');
-const root = ReactDOM.createRoot(domContainer);
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ToDoApp />
+    <App />
   </React.StrictMode>
 );
