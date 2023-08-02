@@ -1,3 +1,23 @@
+* {
+  font-family: sans-serif;
+  
+}
+
+body {
+  background: gray;
+  max-width: 300px;
+}
+
+.form {
+ display: flex;
+ flex-direction: column;
+}
+
+.form-row {
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+}
 .btn {
   margin: 0 5px;
 }
